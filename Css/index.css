@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: whitesmoke;
+    background-image: url(../Assets/Images/purpleBG.png);
+    background-size: 100vw 93vh;
+    background-repeat: no-repeat;
+}
+/*
+    NAV BAR
+*/
+header{
+    background-color: #80F9DC;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 10vh;
+    text-align: center;
+}
+
+nav a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 14px 16px;
+}
+
+.nav-logo{
+    float: left;
+    margin-top: 1   0px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.nav-menu{
+    float: right;
+    margin-top: 35px;
+    margin-right: 100px;
+}
+
+
+/*
+    CONTENT
+*/
+.container{ 
+    display: flex;
+    padding: 50px 100px 50px 100px;
+    height: 90vh;
+    justify-content: space-around;
+    background-image: url("../Assets/Images/basketCartoon.png");
+    background-size: 950px 950px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.left-content{
+    padding-top: 5vh;
+    width: 45vw;
+}
+
+.search-container{
+    margin-top: 150px
+}
+
+.search-box{
+    width: 800px;
+    height: 260px;
+    background-color: white;
+    margin-top: 10px;
+    border: 0px solid black;
+    border-radius: 10px;
+}
+
+footer{
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 20vh;
+    text-align: center;
+    background-color:#80F9DC;
+}
+
+.left-box{
+    margin-top: 50px;
+    float: left;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.right-box{
+    margin-top: 20px;
+    float: right;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.contact>ul{
+    display: flex;
+    text-align: center;
+}
+
+.contact>ul>li{
+    list-style: none;
+    position: relative;
+}
+
+.contact>ul>li a{
+    list-style:square;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 5px;
+}
+
+.contact>ul>li>ul>li{
+    list-style: none;
+}
+
+/* .right-content{
+    background-image: url("../Assets/Images/basketCartoon.png");
+    background-size: contain;
+    background-position: 0 0 0 -100px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+} */
+
+/* .right-content > img{
+    width: 500px;
+    height: 500px;
+} */
+
+
